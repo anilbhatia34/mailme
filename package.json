@@ -4,17 +4,33 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon server"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "author": "Krunal Lathiya",
+  "keywords": [
+    "heroku"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anilbhatia34/mailme.git"
+  },
+  "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anilbhatia34/mailme/issues"
+  },
+  "homepage": "https://github.com/anilbhatia34/mailme#readme",
   "dependencies": {
     "body-parser": "^1.17.2",
     "ejs": "^2.5.7",
     "express": "^4.17.1",
-    "nodemailer": "^4.0.1"
+    "nodemailer": "^4.0.1",
+    "cool-ascii-faces": "^1.3.4"
   },
   "devDependencies": {
-    "nodemon": "^1.11.0"
+    "nodemon": "^1.19.1"
+  },
+  "engines": {
+    "node": "10.x"
   }
 }
